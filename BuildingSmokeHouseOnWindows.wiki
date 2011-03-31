@@ -1,0 +1,10 @@
+#summary Building process of Smoke House application on Windows
+#labels build,windows
+
+= Building process of Smoke House application on Windows =
+
+To build Smoke House application on windows you have to
+install cygwin first, then replace deps/mochiweb link on actual copy
+of mochiweb-1.5.2 which located in the acs_service directory.
+
+No changes should be done in this directory on Unix systems.
